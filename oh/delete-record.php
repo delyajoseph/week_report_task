@@ -1,12 +1,18 @@
+<?php
+/*
+@author      Delya Peter
+@date        28-06-2020
+@description This page is to delete a record
+*/
+?>
 <html>
     <body>
-       <!-- <h1> Deleted</h1>-->
 
-        <?php
+<?php
 
  if (empty($_GET['ID']))
 
- die("You must select a charter to delete");
+    die("You must select a charter to delete");
 
  $ID = $_GET['ID'];
 
@@ -14,7 +20,7 @@
 
  require 'dbConnectMedication.php'; 
 
-//delete the product
+//To delete
 
  $sql = "DELETE FROM MedIntake  WHERE id= $ID";
 
@@ -23,20 +29,13 @@
  $numrows = mysqli_affected_rows($conn);
 
  if ($numrows == 1)
- header("Location: report.php");
-
- //echo "<h2> deleted</h2>";
-
+    header("Location: report.php");
  else
-
- echo "<h2>delete failed. $numrows were deleted</h2>";
+    echo "<h2>delete failed. $numrows were deleted</h2>";
 
  mysqli_close($conn);
 
- ?>
- 
-
-</table>
-</body>
-        </html>
+?>
+    </body>
+</html>
 

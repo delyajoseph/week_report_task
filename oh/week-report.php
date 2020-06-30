@@ -1,4 +1,11 @@
 <?php
+/*
+@author      Delya Peter
+@date        28-06-2020
+@description This page is to create previous week record to csv format
+*/
+
+
 require 'dbConnectMedication.php'; 
 
 $filename = "weekly_report.csv";
