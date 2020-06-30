@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+           
+            margin-left: 380px;
+            padding-top: 20px;
+            
+           
+           
+
+
+
+        }
+        input[type=text] {
+  
+  padding: 12px 20px;
+ 
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+        }
+
+        label {
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+
+        .heading {
+            padding-bottom: 20px;
+        }
+
+        .btn {
+            background-color: rgb(28, 223, 28);
+
+
+        }
+        form {
+                border: 1px solid #f1f1f1;
+                box-sizing: content-box;
+                padding:20px;
+                width: 450px;
+                height: 250px;
+  
+  
+
+        }
+        
+    </style>
+</head>
+
+
+
+<body>
+
+
+    <div class="container">
+        <h1 class="heading">Medicine Intake Record</h1>
+        <form action=Add-record.php method=GET>
+            <div class="row">
+                <div class="col-4">
+                    <label for="mname">Name of Medicine</label>
+                    <input class="form-control" type="text" id="mname" name="mname">
+                </div>
+                <div class="col-4">
+                    <label for="text">Dosage</label>
+                    <input class="form-control" type="text" id="dosage" name="dosage">
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="time">Time</label>
+                    <input class="form-control" type="time" id="time" name="time">
+                </div>
+                <div class="col-4">
+
+                    <label for="tmed">Type of Medicine</label>
+                    <select class="form-control" id="tmed" name="tmed">
+                        <option value="liquid">Liquid</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="capsule">Capsule</option>
+                        <option value="injection">Injection</option>
+                        <option value="tropical_medicine">Tropical medicine</option>
+                        <option value="drops">Drops</option>
+                        <option value="inhalers">Inhalers</option>
+                    </select>
+                </div>  
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <input type="submit" class="btn" value="Add">
+
+                </div>
+
+
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

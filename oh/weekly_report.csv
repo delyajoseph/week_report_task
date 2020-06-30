@@ -1,0 +1,17 @@
+Date,Day,Time,Name of medicine,Dosage, Type of medicine
+2020-06-21,Sun,18:00:00.000,Folic,5mg,tablet
+2020-06-22,Mon,00:00:02.000,Folic ,5mg,tablet
+2020-06-22,Mon,09:00:00.000,Folic,5mg,tablet
+2020-06-23,Tue,11:00:00.000,Folic,5mg,tablet
+2020-06-23,Tue,11:00:00.000,Folic,5mg,tablet
+2020-06-24,Wed,10:00:00.000,Folic,5mg,tablet
+2020-06-24,Wed,10:00:00.000,Folic,5mg,tablet
+2020-06-25,Wed,09:00:00.000,Folic,5mg,tablet
+2020-06-25,Wed,09:00:00.000,Folic,5mg,tablet
+2020-06-26,Thu,13:00:00.000,Folic,5mg,tablet
+2020-06-27,Fri,18:00:00.000,Folic,5mg,tablet
+2020-06-28,Sun,06:00:00.000,Neurophen,200mg,tablet
+2020-06-28,Sun,13:00:00.000,Calpol,500mg,tablet
+2020-06-28,Sun,08:00:00.000,Amox,500mg,capsule
+2020-06-28,Sun,10:00:00.000,Asmol,100mg,inhalers
+2020-06-28,Sat,11:00:00.000,Folic,5mg,tablet
